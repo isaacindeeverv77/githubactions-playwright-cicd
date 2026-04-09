@@ -1,0 +1,7 @@
+[     549ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://ennoventure.com/VFxKuywBgvsQntA1kYxP4aOsF1U.woff2:0
+[     549ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://ennoventure.com/7kDhnbte8YxId05armVX9sHEk.woff2:0
+[    2368ms] [ERROR] Access to script at 'https://www.googletagmanager.com/gtm.js?id=%20GTM-PHFZGL6R' from origin 'https://ennoventure.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://ennoventure.com/resources:0
+[    2368ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.googletagmanager.com/gtm.js?id=%20GTM-PHFZGL6R:0
+[    4675ms] [LOG] [Framer On-Page Editing] Unavailable because not on a `framer.app` subdomain and access status is no-auth @ https://app.framerstatic.com/editorbar.LDY7NA44.mjs:0
+[   10579ms] [WARNING] The resource https://ennoventure.com/7kDhnbte8YxId05armVX9sHEk.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://ennoventure.com/resources:0
+[   10579ms] [WARNING] The resource https://ennoventure.com/VFxKuywBgvsQntA1kYxP4aOsF1U.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://ennoventure.com/resources:0

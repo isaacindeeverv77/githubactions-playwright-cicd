@@ -1,0 +1,29 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - generic [ref=e8]:
+        - link "Company Logo" [ref=e9] [cursor=pointer]:
+          - /url: ./
+        - navigation [ref=e11]
+    - generic [ref=e37]:
+      - banner [ref=e38]:
+        - figure [ref=e40]
+        - generic [ref=e45]
+      - generic [ref=e96]:
+        - generic [ref=e100]
+        - generic [ref=e163]
+    - contentinfo [ref=e171]:
+      - generic [ref=e172]:
+        - generic [ref=e173]
+        - paragraph [ref=e298]: All Copyrights Reserved @ Ennoventure 2025
+  - generic [ref=e302]:
+    - generic [ref=e303]:
+      - paragraph [ref=e304]: Cookie Settings
+      - paragraph [ref=e305]:
+        - text: We use cookies to personalize content, run ads, and analyze traffic.
+        - generic [ref=e306]
+    - generic [ref=e308]:
+      - button "Reject all" [ref=e309] [cursor=pointer]
+      - button "Customize" [ref=e310] [cursor=pointer]
+      - button "Accept all" [ref=e311] [cursor=pointer]
+  - generic:  

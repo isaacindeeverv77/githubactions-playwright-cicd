@@ -1,0 +1,255 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - navigation [ref=e6]:
+      - generic [ref=e8]:
+        - link "Company Logo" [ref=e9] [cursor=pointer]:
+          - /url: ./
+        - navigation [ref=e11]:
+          - link "Home" [ref=e13] [cursor=pointer]:
+            - /url: ./
+            - paragraph [ref=e15]: Home
+          - link "Technology" [ref=e17] [cursor=pointer]:
+            - /url: ./brand-protection-technology
+            - paragraph [ref=e19]: Technology
+          - link "Solutions" [ref=e21] [cursor=pointer]:
+            - /url: ./solutions
+            - paragraph [ref=e23]: Solutions
+          - link "Resources" [ref=e25] [cursor=pointer]:
+            - /url: ./resources
+            - paragraph [ref=e27]: Resources
+          - link "About" [ref=e29] [cursor=pointer]:
+            - /url: ./about
+            - paragraph [ref=e31]: About
+          - button "Request Demo" [ref=e33] [cursor=pointer]:
+            - paragraph [ref=e36]: Request Demo
+    - generic [ref=e37]:
+      - banner [ref=e38]:
+        - figure [ref=e40]
+        - generic [ref=e45]:
+          - heading "E x p l o r e O u r B r a n d P r o t e c t i o n R e s o u r c e C e n t e r" [level=1] [ref=e47]:
+            - generic [ref=e48]:
+              - generic [ref=e49]: E
+              - generic [ref=e50]: x
+              - generic [ref=e51]: p
+              - generic [ref=e52]: l
+              - generic [ref=e53]: o
+              - generic [ref=e54]: r
+              - generic [ref=e55]: e
+            - generic [ref=e56]:
+              - generic [ref=e57]: O
+              - generic [ref=e58]: u
+              - generic [ref=e59]: r
+            - generic [ref=e60]:
+              - generic [ref=e61]: B
+              - generic [ref=e62]: r
+              - generic [ref=e63]: a
+              - generic [ref=e64]: "n"
+              - generic [ref=e65]: d
+            - generic [ref=e66]:
+              - generic [ref=e67]: P
+              - generic [ref=e68]: r
+              - generic [ref=e69]: o
+              - generic [ref=e70]: t
+              - generic [ref=e71]: e
+              - generic [ref=e72]: c
+              - generic [ref=e73]: t
+              - generic [ref=e74]: i
+              - generic [ref=e75]: o
+              - generic [ref=e76]: "n"
+            - generic [ref=e77]:
+              - generic [ref=e78]: R
+              - generic [ref=e79]: e
+              - generic [ref=e80]: s
+              - generic [ref=e81]: o
+              - generic [ref=e82]: u
+              - generic [ref=e83]: r
+              - generic [ref=e84]: c
+              - generic [ref=e85]: e
+            - generic [ref=e86]:
+              - generic [ref=e87]: C
+              - generic [ref=e88]: e
+              - generic [ref=e89]: "n"
+              - generic [ref=e90]: t
+              - generic [ref=e91]: e
+              - generic [ref=e92]: r
+          - paragraph [ref=e94]: Stay informed with thought leadership, technical deep dives, and success stories.
+      - generic [ref=e96]:
+        - generic [ref=e100]:
+          - generic [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]:
+              - img "Resource image" [ref=e103]
+              - generic [ref=e105]: Knowledge
+            - generic [ref=e106]:
+              - heading "Insightful Articles" [level=3] [ref=e107]
+              - paragraph [ref=e108]: Timely articles, analyses, and practical tips on combating counterfeiting and leveraging invisible authentication.
+              - link "Read Articles" [ref=e109]:
+                - /url: https://ennoventure.com/resources/articles
+                - text: Read Articles
+          - generic [ref=e111] [cursor=pointer]:
+            - generic [ref=e112]:
+              - img "Resource image" [ref=e113]
+              - generic [ref=e115]: Education
+            - generic [ref=e116]:
+              - heading "Expert Guides" [level=3] [ref=e117]
+              - paragraph [ref=e118]: Expert research on cryptographic authentication, AI fraud detection, compliance, and integration best practices.
+              - link "View Guides" [ref=e119]:
+                - /url: https://ennoventure.com/resources/guides
+                - text: View Guides
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e122]:
+              - img "Resource image" [ref=e123]
+              - generic [ref=e125]: Success Stories
+            - generic [ref=e126]:
+              - heading "Case Studies" [level=3] [ref=e127]
+              - paragraph [ref=e128]: Cross-industry cases from deployments, challenges, metrics, and ROI roadmaps for success.
+              - link "Explore Cases" [ref=e129]:
+                - /url: https://ennoventure.com/resources/case-studies
+                - text: Explore Cases
+          - generic [ref=e131] [cursor=pointer]:
+            - generic [ref=e132]:
+              - img "Resource image" [ref=e133]
+              - generic [ref=e135]: Tools
+            - generic [ref=e136]:
+              - heading "ROI Calculator" [level=3] [ref=e137]
+              - paragraph [ref=e138]: Calculate the benchmark for FMCG, automotive, pharma, electronics, and luxury drive measurable ROI with Ennoventure.
+              - link "Calculate ROI" [ref=e139]:
+                - /url: https://ennoventure.com/resources/roi-calculator
+                - text: Calculate ROI
+          - generic [ref=e141] [cursor=pointer]:
+            - generic [ref=e142]:
+              - img "Resource image" [ref=e143]
+              - generic [ref=e145]: Insights
+            - generic [ref=e146]:
+              - heading "Compare Ennoventure" [level=3] [ref=e147]
+              - paragraph [ref=e148]: Understand how Ennoventure’s patented brand protection platform compares on technology, integration, scalability, and ROI.
+              - link "Compare Now" [ref=e149]:
+                - /url: https://ennoventure.com/resources/compare
+                - text: Compare Now
+          - generic [ref=e151] [cursor=pointer]:
+            - generic [ref=e152]:
+              - img "Resource image" [ref=e153]
+              - generic [ref=e155]: Foundations
+            - generic [ref=e156]:
+              - heading "Glossary" [level=3] [ref=e157]
+              - paragraph [ref=e158]: Explore anti-counterfeiting, brand protection, & compliances with our Glossary. Curated for industry leaders wanting actionable insights.
+              - link "Discover Key Terms" [ref=e159]:
+                - /url: https://ennoventure.com/resources/glossary
+                - text: Discover Key Terms
+        - generic [ref=e163]:
+          - paragraph [ref=e164]: Ennoventure embeds invisible AI into your packaging to give you real-time control over authenticity, diversion, and compliance.
+          - generic [ref=e165]:
+            - link "See How Brands Stop Counterfeits" [ref=e166] [cursor=pointer]:
+              - /url: https://ennoventure.com/contact
+            - link "View the Technology" [ref=e167] [cursor=pointer]:
+              - /url: https://ennoventure.com/anti-counterfeit-solution
+    - contentinfo [ref=e171]:
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - link [ref=e175] [cursor=pointer]:
+            - /url: ./
+          - generic [ref=e179]:
+            - heading "Navigation" [level=5] [ref=e181]
+            - generic [ref=e182]:
+              - paragraph [ref=e184]:
+                - link "Home" [ref=e185] [cursor=pointer]:
+                  - /url: ./
+              - paragraph [ref=e187]:
+                - link "Technology" [ref=e188] [cursor=pointer]:
+                  - /url: ./brand-protection-technology
+              - paragraph [ref=e190]:
+                - link "Solutions" [ref=e191] [cursor=pointer]:
+                  - /url: ./solutions
+              - paragraph [ref=e193]:
+                - link "Brand Protection Solutions" [ref=e194] [cursor=pointer]:
+                  - /url: ./brand-protection-solutions
+              - paragraph [ref=e196]:
+                - link "Product Authentication" [ref=e197] [cursor=pointer]:
+                  - /url: ./product-authentication
+              - paragraph [ref=e199]:
+                - link "Anti Counterfeit Solutions" [ref=e200] [cursor=pointer]:
+                  - /url: ./anti-counterfeit-solution
+          - generic [ref=e201]:
+            - heading "Resource Center" [level=5] [ref=e203]
+            - generic [ref=e204]:
+              - paragraph [ref=e206]:
+                - link "Resources" [ref=e207] [cursor=pointer]:
+                  - /url: ./resources
+              - paragraph [ref=e209]:
+                - link "Insightful" [ref=e210] [cursor=pointer]:
+                  - /url: ./resources/articles
+                - link "Articles" [ref=e211] [cursor=pointer]:
+                  - /url: ./resources/articles
+              - paragraph [ref=e213]:
+                - link "Case Studies" [ref=e214] [cursor=pointer]:
+                  - /url: ./resources/case-studies
+              - paragraph [ref=e216]:
+                - link "Guides" [ref=e217] [cursor=pointer]:
+                  - /url: ./resources/guides
+              - paragraph [ref=e219]:
+                - link "ROI Calculator" [ref=e220] [cursor=pointer]:
+                  - /url: ./resources/roi-calculator
+              - paragraph [ref=e222]:
+                - link "Glossary" [ref=e223] [cursor=pointer]:
+                  - /url: ./resources/glossary
+              - paragraph [ref=e225]:
+                - link "Compare" [ref=e226] [cursor=pointer]:
+                  - /url: ./resources/compare
+          - generic [ref=e227]:
+            - heading "Company" [level=5] [ref=e229]
+            - generic [ref=e230]:
+              - paragraph [ref=e232]:
+                - link "About Us" [ref=e233] [cursor=pointer]:
+                  - /url: ./about
+              - paragraph [ref=e235]:
+                - link "Partner" [ref=e236] [cursor=pointer]:
+                  - /url: ./about/partner
+              - paragraph [ref=e238]:
+                - link "Careers" [ref=e239] [cursor=pointer]:
+                  - /url: ./careers
+              - paragraph [ref=e241]:
+                - link "Privacy Policy" [ref=e242] [cursor=pointer]:
+                  - /url: ./policies/privacy-and-policy
+              - paragraph [ref=e244]:
+                - link "Terms & Conditions" [ref=e245] [cursor=pointer]:
+                  - /url: ./policies/terms-and-conditions
+              - button "Cookie Trigger" [ref=e247] [cursor=pointer]:
+                - generic [ref=e248]: Cookie Settings
+              - paragraph [ref=e250]:
+                - link "Contact Us" [ref=e251] [cursor=pointer]:
+                  - /url: ./contact
+          - generic [ref=e252]:
+            - link "LinkedIn" [ref=e254] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/ennoventure
+              - img [ref=e257]
+              - heading "LinkedIn" [level=6] [ref=e261]
+            - link "YouTube" [ref=e263] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCZFp904MoHtaHX2i8jmoc5A
+              - img [ref=e266]
+              - heading "YouTube" [level=6] [ref=e270]
+            - link "Twitter" [ref=e272] [cursor=pointer]:
+              - /url: https://x.com/ennoventure
+              - img [ref=e275]
+              - heading "Twitter" [level=6] [ref=e278]
+            - link "Facebook" [ref=e280] [cursor=pointer]:
+              - /url: https://www.facebook.com/ennoventure/
+              - img [ref=e283]
+              - heading "Facebook" [level=6] [ref=e286]
+            - link "Instagram" [ref=e288] [cursor=pointer]:
+              - /url: https://www.instagram.com/ennoventure/
+              - img [ref=e291]
+              - heading "Instagram" [level=6] [ref=e296]
+        - paragraph [ref=e298]: All Copyrights Reserved @ Ennoventure 2025
+  - generic [ref=e302]:
+    - generic [ref=e303]:
+      - paragraph [ref=e304]: Cookie Settings
+      - paragraph [ref=e305]:
+        - text: We use cookies to personalize content, run ads, and analyze traffic.
+        - generic [ref=e306]:
+          - text: Read our
+          - link "Privacy Policy" [ref=e307] [cursor=pointer]:
+            - /url: /policies/privacy-and-policy
+          - text: .
+    - generic [ref=e308]:
+      - button "Reject all" [ref=e309] [cursor=pointer]
+      - button "Customize" [ref=e310] [cursor=pointer]
+      - button "Accept all" [ref=e311] [cursor=pointer]

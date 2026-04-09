@@ -1,18 +1,26 @@
 import { test, expect } from '@playwright/test';
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test('Login to saucedemo application', async ({ page }) => {
+  await page.goto('https://www.saucedemo.com/');
+  await page.pause();
+  await page.locator('#user-name').fill('standard_user');
+  await page.locator('#password').fill('secret_sauce');
+  await page.locator('#login-button').click();
+})
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
-});
+// test('has title', async ({ page }) => {
+//   await page.goto('https://playwright.dev/');
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+//   // Expect a title "to contain" a substring.
+//   await expect(page).toHaveTitle(/Playwright/);
+// });
 
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
+// test('get started link', async ({ page }) => {
+//   await page.goto('https://playwright.dev/');
 
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-});
+//   // Click the get started link.
+//   await page.getByRole('link', { name: 'Get started' }).click();
+
+//   // Expects page to have a heading with the name of Installation.
+//   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+// });
