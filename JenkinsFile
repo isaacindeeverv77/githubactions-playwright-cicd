@@ -1,30 +1,56 @@
 pipeline {
-    agent{
+    agent {
         docker {
-            image 'mcr.microsoft.com/playwright:v1.17.2-focal'
-            }
+            image 'node:20-bullseye'
+            args '--shm-size=1g'
+        }
     }
+
+    environment {
+        CI = 'true'
+    }
+
     stages {
-        stage('install playwright') {
+        stage('Install dependencies') {
             steps {
                 sh '''
-                    npm i -D @playwright/test
-                    npx playwright install
-                ''' 
-            }
-        }
-        stage ('help'){
-            steps {
-                sh 'npx playwright test —help'
-            }
-        }
-        stage('test'){
-            steps {
-                sh '''
-                    npx playwright test --list 
-                    npx playwright test
+                    npm ci
+                    npx playwright install --with-deps
                 '''
             }
+        }
+
+        stage('Run Playwright tests') {
+            steps {
+                sh '''
+                    npm test
+                '''
+            }
+        }
+
+        stage('Publish Playwright reports') {
+            steps {
+                script {
+                    archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true
+                    junit allowEmptyResults: true, testResults: 'test-results/*.xml'
+                }
+            }
+        }
+
+        stage('Show HTML report') {
+            when {
+                expression { return fileExists('playwright-report/index.html') }
+            }
+            steps {
+                sh 'npx playwright show-report'
+            }
+        }
+    }
+
+    post {
+        always {
+            archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true
+            junit 'test-results/*.xml'
         }
     }
 }
